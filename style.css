@@ -26,19 +26,22 @@ body {
 }
 
 .question {
-    border: 2px solid black;
+    
     font-size: 1.5em;
     font-weight: 600;
     margin-bottom: 30px;
 
-    height: 30px;
+    height: 50px;
     display: flex;
     align-items: center;
+
+    padding-left: 15px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.445);
     
 }
 
 .answers p {
-    border: 2px solid black;
 
     display: flex;
     align-items: center;
@@ -46,6 +49,13 @@ body {
     height: 40px;
     margin-bottom: 10px;
     font-size: 1.3em;
+
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.445);
+}
+
+.answers p:hover {
+    background-color: rgba(61, 61, 61, 0.555);
 }
 
 .odpovedTlacitko {
@@ -90,6 +100,7 @@ body {
     padding: 10px 20px;
 
     font-weight: 500;
+    cursor: pointer;
 
 }
 

@@ -18,9 +18,9 @@ window.addEventListener("load", () => {
 
     question.innerHTML = `<span class="poradiOtazky">1</span><span class="tecka">.</span>${otazky[0]}`;
 
-    let nevim = odpovediOtazky[poradiOtazky];
+    let seznam = odpovediOtazky[poradiOtazky];
     for(let a = 0; a < odpovediOtazky[0].length; a++) {
-        odpovedi[a].innerText = nevim[a];
+        odpovedi[a].innerText = seznam[a];
     }
 
 })
@@ -55,9 +55,9 @@ function dalsiOtazka() {
     let odpovedi = document.getElementsByClassName("text");
     let question = document.querySelector(".question");
 
-    let nevim = odpovediOtazky[poradiOtazky];
+    let seznam = odpovediOtazky[poradiOtazky];
     for (let a = 0; a < odpovediOtazky[poradiOtazky].length; a++) {
-        odpovedi[a].innerText = nevim[a];
+        odpovedi[a].innerText = seznam[a];
     }
 
 
